@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.re xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JavaData.UI.OptionsActivity"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+    <Button
+        android:id="@+id/DefaultOptionButton1"
+        android:layout_width="204dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/plank_attack_1m_on_30_sec_break"
+        app:layout_constraintEnd_toStartOf="@+id/DefaultOptionButton2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DefaultOptionButton3"
+        android:layout_width="204dp"
+        android:layout_height="227dp"
+        android:text="@string/_100_100_100_challenge"
+        app:layout_constraintStart_toStartOf="@+id/DefaultOptionButton1"
+        app:layout_constraintTop_toTopOf="@+id/DefaultOptionButton4" />
+
+    <Button
+        android:id="@+id/DefaultOptionButton2"
+        android:layout_width="204dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/tabata"
+        app:layout_constraintBottom_toTopOf="@+id/DefaultOptionButton4"
+        app:layout_constraintStart_toEndOf="@+id/DefaultOptionButton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DefaultOptionButton4"
+        android:layout_width="204dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="@string/hold_2m_on_45_sec_off"
+        app:layout_constraintStart_toEndOf="@+id/DefaultOptionButton3"
+        app:layout_constraintTop_toBottomOf="@+id/DefaultOptionButton2" />
+
+    <Button
+        android:id="@+id/CreateMyOwn"
+        android:layout_width="405dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/create_my_own_workout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DefaultOptionButton3" />
+
+</androidx.constraintlayout.widget.re>
